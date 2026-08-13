@@ -55,7 +55,7 @@ Dedicated, production-grade open-source succession planning platforms with advan
 
 ### Core Open-Source HRMS / Talent Platforms 🛠️
 
-| Project 📦 | Description 📝 | License 📜 | Star Count ⭐ | Notes 💡 |
+| Project 📦 | Description 📝 | License 📜 | Star_Count ⭐ | Notes 💡 |
 |---------|-------------|---------|------------|-------|
 | **[Odoo HR](https://github.com/odoo/odoo)** [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Open-source enterprise suite featuring full HR, employee directory, appraisal, recruitment, skills, and succession planning modules via Community & OCA addons. | LGPL-3.0 / OPL | ~53,700 ⭐ | Massive ecosystem with extensive HR addons |
 | **[Frappe HR](https://github.com/frappe/hrms)** [![Stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) | Modern open-source HR and payroll system with employee lifecycle, performance management, appraisals, goals/KRAs, and talent-related modules. Can be extended for succession tracking. | GPL-3.0 | ~8,400 ⭐ | Strong modern open-source HRMS base |
