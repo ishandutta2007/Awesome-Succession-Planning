@@ -124,3 +124,4 @@ Please read our contributing guidelines, open an issue, or submit a pull request
 
 **Last updated:** August 2026  
 *Emphasizing open-source tools while documenting major commercial platforms for context.*
+
