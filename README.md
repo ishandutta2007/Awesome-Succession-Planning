@@ -23,33 +23,19 @@ Commercial / hosted platforms are listed separately for completeness. Open-sourc
 
 
 | Platform | Description | Key Focus |
-
 |----------|-------------|-----------|
-
 | **[ChartHop](https://www.charthop.com/)** | People analytics and org visualization platform with real-time org charts, scenario modeling, headcount planning, and succession insights. | Visual org charts + scenario planning |
-
 | **[SAP SuccessFactors](https://www.sap.com/)** | Enterprise HCM suite with deep Succession & Development module, talent profiles, 9-box, career development, and AI-assisted insights. | Enterprise end-to-end succession |
-
 | **[Workday](https://www.workday.com/)** | Unified HCM and finance platform with skills cloud, talent profiles, succession planning, and strong analytics in a single data model. | Unified HCM + skills-based succession |
-
 | **[Cornerstone](https://www.cornerstoneondemand.com/)** (Galaxy) | Talent and learning platform that links succession planning to skills graphs, learning paths, and development programs. | Learning-driven succession |
-
 | **[Oracle Fusion HCM](https://www.oracle.com/)** / Oracle HCM | Comprehensive HCM Cloud suite with succession planning, talent reviews, career development, and AI-driven matching. | Enterprise HCM succession |
-
 | **[PeopleFluent](https://www.peoplefluent.com/)** | Talent management focused on succession, scenario modeling, governance, calibration, and compensation-linked planning. | Governance + scenario modeling |
-
 | **[Saba TalentSpace](https://www.cornerstoneondemand.com/)** (Cornerstone) | Legacy/related talent suite with performance, succession, and learning capabilities (now part of broader Cornerstone offerings). | Talent & succession suite |
-
 | **[TalentGuard](https://www.talentguard.com/)** | Competency-based talent management with succession planning, role criticality, readiness scoring, and career pathing. | Competency-based succession |
-
 | **[Actus](https://www.actus.co.uk/)** | Performance and talent management platform supporting appraisals, objectives, and succession-related processes. | Performance-linked talent |
-
 | **[ClearCompany](https://www.clearcompany.com/)** | Talent management suite covering recruiting, onboarding, performance, and succession planning for mid-market organizations. | Mid-market talent suite |
-
 | **[Fuel50](https://www.fuel50.com/)** | AI-powered talent marketplace and career pathing platform focused on internal mobility, skills, and succession readiness. | AI talent marketplace & career pathing |
-
 | **[HiBob](https://www.hibob.com/)** | Modern HR platform with people analytics, org insights, and growing talent/succession capabilities for mid-sized companies. | Modern HR + people insights |
-
 | **[Lattice](https://lattice.com/)** | Performance, engagement, and talent platform with succession planning embedded in calibration and talent review workflows. | Performance-embedded succession |
 
 
@@ -71,19 +57,12 @@ Dedicated, production-grade open-source succession planning platforms with advan
 
 
 | Project | Description | License | Notes |
-
 |---------|-------------|---------|-------|
-
 | **[Frappe HR](https://github.com/frappe/hrms)** (ERPNext HR) | Modern open-source HR and payroll system with employee lifecycle, performance management, appraisals, goals/KRAs, and talent-related modules. Can be extended for succession tracking. | GPL-3.0 | Strong modern open-source HRMS base |
-
 | **[OrangeHRM](https://github.com/orangehrm)** | Established open-source HR management platform with performance appraisal, competency management, and succession planning features in its suite. | GPL | Classic open-source HR with succession support |
-
 | **[MintHCM](https://github.com/minthcm/minthcm)** | Open-source, AI-native HCM platform focused on full data ownership and agentic HR processes, including competencies, evaluations, and employee profiles. | AGPL | AI-oriented open HCM |
-
 | **Totara Learn / related** | Open-source learning and talent management platform (enterprise-oriented) that supports competency frameworks, performance, and succession-related development. | Open source (with enterprise options) | Learning + talent focus |
-
 | **Opigno LMS** | Drupal-based open-source LMS that can support talent development, performance tracking, and succession-oriented learning paths. | Open source | LMS with talent extensions |
-
 | **Custom talent matching engines** | Community projects for AI-assisted skill matching, internal mobility, or high-potential identification from public or internal data. | Various | Experimental talent intelligence |
 
 
@@ -93,19 +72,12 @@ Dedicated, production-grade open-source succession planning platforms with advan
 
 
 | Project | Description | Focus Area |
-
 |---------|-------------|---------|
-
 | **Performance & appraisal modules** | Open HRMS performance review, goal, and 360-feedback components that feed succession discussions. | Performance data for succession |
-
 | **Competency & skills frameworks** | Open tools for defining competencies, skills ontologies, and gap analysis. | Skills & readiness |
-
 | **Org chart & visualization** | Open libraries (D3, etc.) and HR tools for building interactive org charts and scenario views. | Visual planning |
-
 | **Career pathing prototypes** | Open projects exploring internal mobility, role progression, and development planning. | Career development |
-
 | **Analytics & dashboards** | Metabase, Apache Superset, or custom dashboards on top of open HR data for talent pool and risk reporting. | Talent analytics |
-
 | **Workflow engines** | Open workflow tools for calibration sessions, approval of succession plans, and development actions. | Process automation |
 
 
@@ -141,31 +113,18 @@ Dedicated, production-grade open-source succession planning platforms with advan
 
 
 | Goal | Recommended Starting Point |
-
 |------|---------------------------|
-
 | Best modern open-source HRMS base | **Frappe HR** |
-
 | Established open-source HR with succession features | **OrangeHRM** |
-
 | AI-native open HCM | **MintHCM** |
-
 | Visual org charts & scenario planning | **ChartHop** |
-
 | Enterprise end-to-end succession | **SAP SuccessFactors** or **Workday** |
-
 | Learning-linked succession | **Cornerstone** |
-
 | Competency-based succession | **TalentGuard** |
-
 | Performance-embedded succession | **Lattice** |
-
 | AI talent marketplace & career pathing | **Fuel50** |
-
 | Mid-market talent suite | **ClearCompany** or **HiBob** |
-
 | Governance & scenario modeling | **PeopleFluent** |
-
 | Full Oracle HCM succession | **Oracle Fusion HCM** |
 
 
