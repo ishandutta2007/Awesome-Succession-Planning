@@ -4,8 +4,20 @@
       <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
     </linearGradient>
+    <style>
+      .title { font: bold 32px sans-serif; fill: white; }
+      .subtitle { font: 18px sans-serif; fill: white; opacity: 0.9; }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+      .anim { animation: float 3s ease-in-out infinite; }
+    </style>
   </defs>
-  <rect width="800" height="200" fill="url(#grad1)" rx="15" ry="15"/>
-  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Awesome Revenue Recognition</text>
-  <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" dominant-baseline="middle">Curated ecosystem for ASC 606 &amp; IFRS 15</text>
+  <rect width="800" height="200" rx="20" fill="url(#grad1)" />
+  <circle cx="100" cy="100" r="40" fill="rgba(255,255,255,0.2)" class="anim" />
+  <circle cx="700" cy="80" r="60" fill="rgba(255,255,255,0.1)" class="anim" style="animation-delay: 1s;" />
+  <text x="400" y="90" text-anchor="middle" class="title">Awesome Skills Intelligence</text>
+  <text x="400" y="130" text-anchor="middle" class="subtitle">Curated list of SaaS &amp; Open Source platforms</text>
 </svg>
