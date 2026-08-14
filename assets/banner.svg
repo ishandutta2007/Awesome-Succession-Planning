@@ -1,87 +1,111 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
   <defs>
-    <!-- Background Gradients -->
+    <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070d19" />
-      <stop offset="50%" stop-color="#0c192e" />
-      <stop offset="100%" stop-color="#081021" />
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070b12" />
     </linearGradient>
 
-    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Accent Gradients -->
+    <linearGradient id="route-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#06b6d4" />
-      <stop offset="50%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
     </linearGradient>
 
-    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    <linearGradient id="route-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="route-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="text-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="40%" stop-color="#38bdf8" />
+      <stop offset="80%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#f8fafc" />
     </linearGradient>
 
     <radialGradient id="radar-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.35" />
-      <stop offset="60%" stop-color="#0369a1" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#0c4a6e" stop-opacity="0" />
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#0284c7" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
     </radialGradient>
 
-    <linearGradient id="text-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e0f2fe" />
-      <stop offset="50%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#bae6fd" />
-    </linearGradient>
+    <radialGradient id="node-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="depot-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
 
     <!-- Filters -->
-    <filter id="blur-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+    <filter id="glow-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
     <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.6" />
     </filter>
 
-    <!-- Styles & Keyframe Animations -->
+    <!-- CSS Animations -->
     <style>
-      .radar-sweep {
-        transform-origin: 960px 190px;
-        animation: rotateSweep 10s linear infinite;
+      .dash-route-1 {
+        stroke-dasharray: 8 6;
+        animation: flowRoute 25s linear infinite;
       }
-      .pulse-circle {
-        transform-origin: 960px 190px;
-        animation: pulseRing 4s ease-out infinite;
+      .dash-route-2 {
+        stroke-dasharray: 6 5;
+        animation: flowRouteReverse 20s linear infinite;
       }
-      .pulse-circle-2 {
-        transform-origin: 960px 190px;
-        animation: pulseRing 4s ease-out infinite 2s;
+      .dash-route-3 {
+        stroke-dasharray: 7 6;
+        animation: flowRoute 30s linear infinite;
       }
-      .float-cloud {
-        animation: floatSlow 6s ease-in-out infinite alternate;
+      .pulse-ring {
+        transform-origin: center;
+        animation: pulseWave 3s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
       }
-      .wave-line {
-        stroke-dasharray: 8 4;
-        animation: dashMove 20s linear infinite;
+      .pulse-ring-delayed {
+        transform-origin: center;
+        animation: pulseWave 3s cubic-bezier(0.215, 0.61, 0.355, 1) infinite 1.5s;
       }
-      .glowing-dot {
-        animation: blink 2.5s ease-in-out infinite;
+      .beacon-dot {
+        animation: blinkBeacon 2s ease-in-out infinite;
       }
-      @keyframes rotateSweep {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
+      .truck-marker {
+        animation: floatMarker 4s ease-in-out infinite alternate;
       }
-      @keyframes pulseRing {
-        0% { r: 20px; opacity: 0.8; stroke-width: 2px; }
-        100% { r: 140px; opacity: 0; stroke-width: 0.5px; }
+      @keyframes flowRoute {
+        from { stroke-dashoffset: 200; }
+        to { stroke-dashoffset: 0; }
       }
-      @keyframes floatSlow {
-        0% { transform: translateY(0px); }
-        100% { transform: translateY(-8px); }
+      @keyframes flowRouteReverse {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 200; }
       }
-      @keyframes dashMove {
-        to { stroke-dashoffset: -200; }
+      @keyframes pulseWave {
+        0% { r: 12px; opacity: 0.9; stroke-width: 2.5px; }
+        100% { r: 75px; opacity: 0; stroke-width: 0.5px; }
       }
-      @keyframes blink {
+      @keyframes blinkBeacon {
         0%, 100% { opacity: 0.3; transform: scale(0.9); }
-        50% { opacity: 1; transform: scale(1.15); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      @keyframes floatMarker {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-6px); }
       }
     </style>
   </defs>
@@ -89,8 +113,8 @@
   <!-- Background Base -->
   <rect width="1200" height="380" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2" />
 
-  <!-- Grid Pattern Overlay -->
-  <g opacity="0.08" stroke="#38bdf8" stroke-width="1">
+  <!-- Logistics Network Grid Pattern Overlay -->
+  <g opacity="0.07" stroke="#38bdf8" stroke-width="1">
     <line x1="0" y1="60" x2="1200" y2="60" />
     <line x1="0" y1="120" x2="1200" y2="120" />
     <line x1="0" y1="180" x2="1200" y2="180" />
@@ -109,103 +133,147 @@
     <line x1="1100" y1="0" x2="1100" y2="380" />
   </g>
 
-  <!-- Weather Isobar Contours -->
-  <g opacity="0.2" fill="none" stroke="#0ea5e9" stroke-width="1.5">
-    <path class="wave-line" d="M -50,120 Q 200,60 450,140 T 950,100 T 1250,150" />
-    <path class="wave-line" d="M -50,220 Q 250,180 550,250 T 1000,200 T 1250,240" stroke="#38bdf8" />
-    <path class="wave-line" d="M -50,300 Q 180,240 500,310 T 900,280 T 1250,320" stroke="#0284c7" />
-  </g>
+  <!-- Right Visual Map & Graph Topology -->
+  <g transform="translate(40, 0)">
+    <!-- Depot Area Glow -->
+    <circle cx="940" cy="180" r="130" fill="url(#radar-glow)" />
 
-  <!-- Dynamic Doppler Radar Display on Right Side -->
-  <g transform="translate(0, 0)">
-    <circle cx="960" cy="190" r="140" fill="url(#radar-glow)" />
-    <circle cx="960" cy="190" r="140" fill="none" stroke="#0284c7" stroke-width="1.5" opacity="0.4" />
-    <circle cx="960" cy="190" r="100" fill="none" stroke="#0ea5e9" stroke-width="1" opacity="0.3" />
-    <circle cx="960" cy="190" r="60" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.4" />
-    <circle cx="960" cy="190" r="20" fill="none" stroke="#7dd3fc" stroke-width="1" opacity="0.5" />
-
-    <!-- Pulse Rings -->
-    <circle class="pulse-circle" cx="960" cy="190" r="20" fill="none" stroke="#38bdf8" />
-    <circle class="pulse-circle-2" cx="960" cy="190" r="20" fill="none" stroke="#0ea5e9" />
-
-    <!-- Crosshairs -->
-    <line x1="820" y1="190" x2="1100" y2="190" stroke="#0284c7" stroke-width="1" opacity="0.4" stroke-dasharray="4 4" />
-    <line x1="960" y1="50" x2="960" y2="330" stroke="#0284c7" stroke-width="1" opacity="0.4" stroke-dasharray="4 4" />
-
-    <!-- Rotating Radar Sweep Cone -->
-    <g class="radar-sweep">
-      <path d="M 960 190 L 1100 190 A 140 140 0 0 0 1060 90 Z" fill="url(#glow-grad)" opacity="0.5" />
-      <line x1="960" y1="190" x2="1100" y2="190" stroke="#7dd3fc" stroke-width="2" />
+    <!-- Secondary Network Connections (Static faint) -->
+    <g opacity="0.25" stroke="#475569" stroke-width="1.5" stroke-dasharray="3 3">
+      <line x1="760" y1="110" x2="860" y2="80" />
+      <line x1="860" y1="80" x2="980" y2="100" />
+      <line x1="980" y1="100" x2="1080" y2="140" />
+      <line x1="1080" y1="140" x2="1110" y2="240" />
+      <line x1="1110" y1="240" x2="1020" y2="300" />
+      <line x1="1020" y1="300" x2="880" y2="280" />
+      <line x1="880" y1="280" x2="780" y2="220" />
+      <line x1="780" y1="220" x2="760" y2="110" />
     </g>
 
-    <!-- Weather Echo Clusters / Radar Returns -->
-    <path d="M 990 140 Q 1020 120 1040 150 Q 1030 170 1000 160 Z" fill="#22c55e" opacity="0.4" filter="url(#blur-glow)" />
-    <path d="M 920 220 Q 940 195 970 215 Q 950 245 915 235 Z" fill="#eab308" opacity="0.4" filter="url(#blur-glow)" />
-    <path d="M 935 225 Q 945 210 960 220 Z" fill="#ef4444" opacity="0.5" filter="url(#blur-glow)" />
+    <!-- Optimized Route 1 (Cyan/Purple Delivery Loop) -->
+    <path class="dash-route-1" d="M 940,180 L 860,80 L 760,110 L 780,220 L 880,280 Z" fill="none" stroke="url(#route-cyan)" stroke-width="3" filter="url(#glow-blur)" />
+    <path class="dash-route-1" d="M 940,180 L 860,80 L 760,110 L 780,220 L 880,280 Z" fill="none" stroke="#e0f2fe" stroke-width="1.5" />
 
-    <!-- Satellite / Station Nodes -->
-    <circle cx="910" cy="130" r="3.5" fill="#38bdf8" class="glowing-dot" />
-    <circle cx="1020" cy="230" r="3.5" fill="#34d399" class="glowing-dot" />
-    <circle cx="890" cy="250" r="3" fill="#fbbf24" class="glowing-dot" />
-    <circle cx="1030" cy="120" r="3" fill="#60a5fa" class="glowing-dot" />
+    <!-- Optimized Route 2 (Amber/Pink Fleet Route) -->
+    <path class="dash-route-2" d="M 940,180 L 980,100 L 1080,140 L 1110,240 L 1020,300 Z" fill="none" stroke="url(#route-amber)" stroke-width="3" filter="url(#glow-blur)" />
+    <path class="dash-route-2" d="M 940,180 L 980,100 L 1080,140 L 1110,240 L 1020,300 Z" fill="none" stroke="#ffedd5" stroke-width="1.5" />
+
+    <!-- Central Depot Hub (Node 0) -->
+    <circle cx="940" cy="180" r="16" fill="#0f172a" stroke="#f59e0b" stroke-width="3" />
+    <circle cx="940" cy="180" r="6" fill="#f59e0b" />
+    <circle class="pulse-ring" cx="940" cy="180" r="16" fill="none" stroke="#f59e0b" />
+    <circle class="pulse-ring-delayed" cx="940" cy="180" r="16" fill="none" stroke="#38bdf8" />
+
+    <!-- Waypoint Stop Nodes -->
+    <!-- Stop 1 -->
+    <circle cx="860" cy="80" r="8" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" />
+    <circle cx="860" cy="80" r="3.5" fill="#38bdf8" class="beacon-dot" />
+    <text x="860" y="65" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 01</text>
+
+    <!-- Stop 2 -->
+    <circle cx="760" cy="110" r="8" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" />
+    <circle cx="760" cy="110" r="3.5" fill="#38bdf8" class="beacon-dot" />
+    <text x="735" y="105" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 02</text>
+
+    <!-- Stop 3 -->
+    <circle cx="780" cy="220" r="8" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" />
+    <circle cx="780" cy="220" r="3.5" fill="#38bdf8" class="beacon-dot" />
+    <text x="755" y="240" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 03</text>
+
+    <!-- Stop 4 -->
+    <circle cx="880" cy="280" r="8" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" />
+    <circle cx="880" cy="280" r="3.5" fill="#38bdf8" class="beacon-dot" />
+    <text x="880" y="305" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 04</text>
+
+    <!-- Stop 5 -->
+    <circle cx="980" cy="100" r="8" fill="#0f172a" stroke="#fbbf24" stroke-width="2.5" />
+    <circle cx="980" cy="100" r="3.5" fill="#fbbf24" class="beacon-dot" />
+    <text x="980" y="85" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 05</text>
+
+    <!-- Stop 6 -->
+    <circle cx="1080" cy="140" r="8" fill="#0f172a" stroke="#fbbf24" stroke-width="2.5" />
+    <circle cx="1080" cy="140" r="3.5" fill="#fbbf24" class="beacon-dot" />
+    <text x="1105" y="135" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 06</text>
+
+    <!-- Stop 7 -->
+    <circle cx="1110" cy="240" r="8" fill="#0f172a" stroke="#fbbf24" stroke-width="2.5" />
+    <circle cx="1110" cy="240" r="3.5" fill="#fbbf24" class="beacon-dot" />
+    <text x="1135" y="255" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 07</text>
+
+    <!-- Stop 8 -->
+    <circle cx="1020" cy="300" r="8" fill="#0f172a" stroke="#fbbf24" stroke-width="2.5" />
+    <circle cx="1020" cy="300" r="3.5" fill="#fbbf24" class="beacon-dot" />
+    <text x="1020" y="325" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stop 08</text>
+
+    <!-- Moving Vehicle Badge / Floating Indicator -->
+    <g class="truck-marker" transform="translate(805, 90)">
+      <rect width="64" height="24" rx="12" fill="#0369a1" stroke="#38bdf8" stroke-width="1.5" filter="url(#soft-shadow)" />
+      <text x="32" y="16" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">🚚 Fleet A</text>
+    </g>
+
+    <g class="truck-marker" transform="translate(1040, 260)">
+      <rect width="64" height="24" rx="12" fill="#b45309" stroke="#f59e0b" stroke-width="1.5" filter="url(#soft-shadow)" />
+      <text x="32" y="16" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">⚡ Fleet B</text>
+    </g>
   </g>
 
-  <!-- Left / Center Branding Content -->
-  <g transform="translate(80, 0)">
-    <!-- Weather Intelligence Badge -->
-    <g transform="translate(0, 65)">
-      <rect width="210" height="28" rx="14" fill="#0f2847" stroke="#0284c7" stroke-width="1" />
-      <circle cx="14" cy="14" r="5" fill="#38bdf8" class="glowing-dot" />
-      <text x="28" y="18" fill="#7dd3fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1">METEOROLOGY &amp; AI</text>
+  <!-- Left Header & Branding Content -->
+  <g transform="translate(70, 0)">
+    <!-- Category Pill Badge -->
+    <g transform="translate(0, 60)">
+      <rect width="270" height="30" rx="15" fill="#0f2942" stroke="#0284c7" stroke-width="1.2" />
+      <circle cx="15" cy="15" r="5" fill="#38bdf8" class="beacon-dot" />
+      <text x="30" y="20" fill="#7dd3fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1">LOGISTICS &amp; VRP SOLVERS</text>
     </g>
 
     <!-- Main Title with Glow -->
-    <g transform="translate(0, 145)" filter="url(#soft-shadow)">
-      <text x="0" y="0" fill="url(#text-shimmer)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">
-        Awesome Weather Intelligence
+    <g transform="translate(0, 140)" filter="url(#soft-shadow)">
+      <text x="0" y="0" fill="url(#text-shimmer)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-0.5">
+        Awesome Route Optimization
       </text>
     </g>
 
     <!-- Subtitle / Tagline -->
-    <g transform="translate(0, 185)">
-      <text x="0" y="0" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="400">
-        Curated SaaS Platforms, AI Forecasting Models, Open APIs &amp; Climate Datasets
+    <g transform="translate(0, 180)">
+      <text x="0" y="0" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+        Curated SaaS Platforms, VRP Engines, Fleet Dispatch &amp; Open-Source Routing Solvers
       </text>
     </g>
 
     <!-- Feature Highlights Tags -->
-    <g transform="translate(0, 230)">
-      <!-- Tag 1: Hyperlocal APIs -->
+    <g transform="translate(0, 222)">
+      <!-- Tag 1: VRP & CVRP -->
       <g transform="translate(0, 0)">
-        <rect width="145" height="34" rx="8" fill="#0b213f" stroke="#1e3a5f" stroke-width="1" />
-        <text x="14" y="21" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⚡ Hyperlocal APIs</text>
+        <rect width="130" height="34" rx="8" fill="#0b213f" stroke="#1e3a5f" stroke-width="1" />
+        <text x="14" y="21" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📍 VRP / CVRP</text>
       </g>
 
-      <!-- Tag 2: AI Weather Models -->
-      <g transform="translate(155, 0)">
+      <!-- Tag 2: Last-Mile Delivery -->
+      <g transform="translate(140, 0)">
         <rect width="165" height="34" rx="8" fill="#0b213f" stroke="#1e3a5f" stroke-width="1" />
-        <text x="14" y="21" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🧠 AI Weather Models</text>
+        <text x="14" y="21" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🚚 Last-Mile Dispatch</text>
       </g>
 
-      <!-- Tag 3: Doppler & Radar -->
-      <g transform="translate(330, 0)">
-        <rect width="155" height="34" rx="8" fill="#0b213f" stroke="#1e3a5f" stroke-width="1" />
-        <text x="14" y="21" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📡 Doppler &amp; Radar</text>
+      <!-- Tag 3: Multi-Stop Routing -->
+      <g transform="translate(315, 0)">
+        <rect width="160" height="34" rx="8" fill="#0b213f" stroke="#1e3a5f" stroke-width="1" />
+        <text x="14" y="21" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⚡ Multi-Depot Planning</text>
       </g>
 
-      <!-- Tag 4: Climate Reanalysis -->
-      <g transform="translate(495, 0)">
-        <rect width="165" height="34" rx="8" fill="#0b213f" stroke="#1e3a5f" stroke-width="1" />
-        <text x="14" y="21" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🌍 Global Reanalysis</text>
+      <!-- Tag 4: Open Engines -->
+      <g transform="translate(485, 0)">
+        <rect width="150" height="34" rx="8" fill="#0b213f" stroke="#1e3a5f" stroke-width="1" />
+        <text x="14" y="21" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🛠️ Open Routing Stacks</text>
       </g>
     </g>
 
     <!-- Bottom Metric / Footer line -->
-    <g transform="translate(0, 305)">
-      <line x1="0" y1="0" x2="660" y2="0" stroke="#1e293b" stroke-width="1" />
+    <g transform="translate(0, 300)">
+      <line x1="0" y1="0" x2="635" y2="0" stroke="#1e293b" stroke-width="1" />
       <text x="0" y="24" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
-        Real-time Observations • 1940+ Archives • NWP Downscaling • Open Source Stacks
+        Time Windows • Capacity Constraints • Distance Matrices • Real-Time Re-Optimization
       </text>
     </g>
   </g>
 </svg>
+
