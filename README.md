@@ -1,153 +1,168 @@
-# 🚚 Awesome Route Optimization Platform [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed1c88387b76e60417255b632b02/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+# Awesome-Revenue-Recognition
 
-> 📍 A curated directory of top **Route Optimization Platforms**, Vehicle Routing Problem (VRP/CVRP/VRPTW) solvers, last-mile delivery dispatchers, multi-depot planning engines, distance matrix services, and self-hosted logistics stacks.
+## Top Revenue Recognition Platforms Ecosystem
 
-<p align="center">
-  <img src="assets/banner.svg" alt="Awesome Route Optimization Platform Banner" width="100%" />
-</p>
+**Curated List of SaaS Products & Open-Source GitHub Projects**
 
-<p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Route-Optimization-Platform?style=flat-square&color=gold" alt="GitHub Stars" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Route-Optimization-Platform?style=flat-square" alt="GitHub Forks" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Route-Optimization-Platform?style=flat-square&color=blue" alt="License" /></a>
-  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-</p>
+*Focused on ASC 606 / IFRS 15 Compliance, Deferred Revenue, SSP Allocation, Contract Modifications & Automated Revenue Schedules*
+
+**Last updated: August 2026**
+
+
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Revenue Recognition**. These systems automate the identification of performance obligations, allocation of transaction price (including SSP), timing of revenue recognition (point-in-time or over-time), contract modifications, variable consideration, and generation of compliant journal entries and waterfalls under ASC 606 and IFRS 15.
+
+
+
+**Examples** include Zuora, Chargebee, Sage Intacct, Oracle NetSuite, Certinia, Chargezoom, Leapfin, RightRev, Sequence, and Trullion (the category leaders).
+
+
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted billing, revenue schedule engines, Odoo modules, educational ASC 606/IFRS 15 implementations, and open monetization platforms that can support or feed revenue recognition workflows — ideal for finance engineers, SaaS companies, and organizations seeking transparency and control over complex revenue accounting.
+
+
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+
+
+## Table of Contents
+
+- [SaaS/Hosted Platforms](#saas-products)
+
+- [Open-Source GitHub Projects](#open-source-github-projects)
+
+- [How to Contribute](#how-to-contribute)
+
+- [Disclaimer](#disclaimer)
+
+
+
+## SaaS/Hosted Platforms
+
+| Product | Description | Pricing | Free Tier Limit |
+|---------|-------------|---------|-----------------|
+| **[Zuora](https://www.zuora.com/)** | Enterprise revenue and subscription platform with deep ASC 606 / IFRS 15 capabilities (Zuora Revenue) for complex multi-element arrangements, usage-based models, and high-volume processing. | Starting at ~$75,000/year | No free tier (Free Essentials training tier only) |
+| **[Chargebee](https://www.chargebee.com/)** | Subscription billing platform with Chargebee RevRec for automated ASC 606 / IFRS 15 revenue recognition, deferred revenue management, and finance automation tailored to SaaS. | Starting at $599/month | Free until $250,000 in cumulative billing |
+| **[Sage Intacct](https://www.sage.com/en-us/products/sage-intacct/)** | Cloud financial management system with strong mid-market revenue recognition features, multi-element support, and automated revenue schedules. | Starting at ~$9,000/year | 30-day free trial via personalized sample company |
+| **[Oracle NetSuite](https://www.netsuite.com/)** | ERP platform offering Advanced Revenue Management (ARM) for ASC 606 compliance, revenue schedules, and integrated order-to-cash and revenue processes. | Starting at ~$999/month + $99/user/mo | 14-day free trial via certified partners |
+| **[Certinia](https://certinia.com/)** | Professional services and ERP cloud platform (formerly FinancialForce) with revenue recognition, billing, and project-based accounting capabilities. | Starting at ~$100,000/year | 30-day trial for specific add-on modules only |
+| **[Chargezoom](https://www.chargezoom.com/)** | Billing and payment solutions that support recurring revenue operations and can integrate with broader revenue recognition workflows. | Starting at $20/month | Free forever plan (pay per payment processed) |
+| **[Leapfin](https://www.leapfin.com/)** | AI-powered revenue automation platform that transforms transaction and billing data into ERP-ready journal entries and accelerates the close. | Starting at $1,000/month | Interactive demo available (no free trial/tier) |
+| **[RightRev](https://www.rightrev.com/)** | Dedicated revenue recognition engine focused on policy-driven ASC 606 / IFRS 15 automation, SSP allocation, and complex contract handling for growth-stage to enterprise SaaS. | Starting at $2,500/month | Live demo available (no free trial/tier) |
+| **[Sequence](https://www.sequencehq.com/)** | Modern billing and monetization platform with revenue-related capabilities for usage and subscription businesses. | Starting at $799/month | Live demo available (no free trial/tier) |
+| **[Trullion](https://trullion.com/)** | AI-powered platform for revenue recognition and lease accounting, helping finance and audit teams with ASC 606 / IFRS 15 and related compliance. | Starting at ~$3,000/year | Live demo available (no free trial/tier) |
+
+
+
+## Open-Source GitHub Projects
+
+- **[Kill Bill](https://github.com/killbill/killbill)**  
+
+  Mature open-source subscription billing and payments platform that provides the transactional foundation many teams extend for custom revenue recognition logic.
+
+
+
+- **[Lago](https://github.com/getlago/lago)**  
+
+  Open-source metering, usage-based billing, and subscription management platform with revenue analytics that can feed downstream rev-rec processes.
+
+
+
+- **[UniBee](https://github.com/unibee-billing)**  
+
+  Open-source recurring billing and payment management system with admin and user portals suitable for self-hosted subscription operations.
+
+
+
+- **[Odoo / SSI Revenue Recognition modules](https://github.com/open-synergy/ssi-revenue-recognition)**  
+
+  Community and specialized Odoo addons implementing performance obligations, revenue recognition schedules, project integration, and related accounting features.
+
+
+
+- **[eRev / ASC 606 calculation engines](https://github.com/)**  
+
+  Open-sourced revenue recognition calculation frameworks supporting multi-year SSP allocation, variable consideration, contract modifications, versioning, and journal entry generation.
+
+
+
+- **[IFRS 15 / ASC 606 educational prototypes](https://github.com/)**  
+
+  FastAPI and notebook-based showcases that implement the five-step model, performance obligations, residual allocation, and revenue schedules with synthetic data.
+
+
+
+- **[Revbot and concept revenue APIs](https://github.com/birchpoplar/revbot)**  
+
+  Experimental open-source APIs and platforms for modeling customers, contracts, revenue segments, and recognition schedules in a SaaS-like construct.
+
+
+
+- **[Open billing & monetization platforms (Meteroid, Opencell, etc.)](https://github.com/)**  
+
+  Additional open-source or open-core billing engines that handle subscriptions, usage, and invoicing — providing clean inputs for custom or ERP-based revenue recognition.
+
+
+
+- **[Revenue waterfall & reporting scripts](https://github.com/)**  
+
+  Community tools and notebooks that transform CRM or billing data into ASC 606-style revenue waterfall reports and schedules.
+
+
+
+- **[InvoiceShelf and self-hosted invoicing](https://invoiceshelf.com/)**  
+
+  Open-source self-hosted invoicing and recurring billing solutions that can serve as the operational layer feeding recognition processes.
+
+
+
+### Additional Strong Open-Source Options
+
+- Custom Python/SQL engines that implement the five-step revenue recognition model on top of open billing data.
+
+- ERP community modules (Odoo, ERPNext, and similar) with deferred revenue and contract accounting features.
+
+- Spreadsheet-to-code migrations of SSP allocation and modification logic for auditability.
+
+- Integration patterns that push open billing events into NetSuite, Sage, or other ERPs via APIs.
+
+- AI-assisted IFRS/ASC knowledge bases and checklists that help validate policy application.
+
+
+
+**Frameworks for building custom systems**: Use an open billing platform (**Kill Bill**, **Lago**, or **UniBee**) as the source of contracts and invoices, implement or adopt an open ASC 606 / IFRS 15 calculation layer (eRev-style or educational engines), generate schedules and journal entries, and post into an open or commercial general ledger. Orchestrate with dbt or custom pipelines, store versioned contracts for audit, and use local LLMs for policy explanation and modification impact analysis.
+
+
+
+## How to Contribute
+
+1. Fork the repo.
+
+2. Add/edit entries in `README.md` (follow existing format).
+
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+
+4. Submit PR with a short explanation.
+
+
+
+Star the repo if you find it useful!
+
+
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+
+- Revenue recognition under ASC 606 and IFRS 15 is a highly regulated accounting domain. Open-source tools are typically educational, partial, or foundational; they do not replace professional judgment, audited systems, or formal compliance frameworks.
+
+- Self-hosted solutions handling financial data must meet security, auditability, and internal control requirements appropriate for your organization and jurisdiction.
+
+
 
 ---
 
-## 🧭 Table of Contents
+**Made for finance teams, SaaS controllers, revenue accountants, and engineers building transparent monetization and recognition systems.**
 
-- [🏢 Commercial & SaaS Hosted Platforms](#-commercial--saas-hosted-platforms)
-- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
-- [🧩 Routing Toolkits & Building Blocks](#-routing-toolkits--building-blocks)
-- [🎯 Quick Start Recommendations](#-quick-start-recommendations)
-- [📈 Star History](#-star-history)
-- [🤝 How to Contribute](#-how-to-contribute)
-- [⚠️ Disclaimer](#️-disclaimer)
-
----
-
-## 🏢 Commercial & SaaS Hosted Platforms
-
-Below is a curated comparison of leading commercial route optimization, fleet dispatch, and last-mile logistics orchestration platforms. *Sorted by Company Scale / Valuation / Revenue (Descending).*
-
-| Platform 🚀 | Company Scale & Valuation 📊 | Overview & Key Strengths 📝 | Starting Tier Pricing 💰 | Free Tier & Free Trial Limits 🎁 |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Bringg](https://www.bringg.com/)** | **~$1.0B Valuation (Unicorn)** / ~$190M+ Total Funding / ~$40.8M ARR | Enterprise-grade delivery and fulfillment orchestration platform supporting mixed internal and 3PL fleets, dynamic route optimization, and omnichannel last-mile operations. | Enterprise contracts start at **~$10,000 – $20,000 / year** (~$833 – $1,666/month); modular Delivery Hub tiers | **30-day free trial** for the Delivery Hub module; guided pilot evaluations for the core enterprise platform (no permanent free tier). |
-| **[FarEye](https://fareye.com/)** | **~$150M+ Revenue** / ~$152M Total Funding / ~$80M–$100M Valuation | Global enterprise delivery management platform offering embedded multi-stop route optimization, multi-carrier management, real-time tracking, and customer experience workflows. | Enterprise tier starts at **~$50,000 / year** (~$4,166/month base + ~$0.50/transaction via AWS Marketplace / contracts) | **14-day guided proof-of-concept / evaluation trial** upon demo consultation with solutions engineering (no public self-serve free plan). |
-| **[Circuit](https://getcircuit.com/)** *(Spoke)* | **~$43.6M ARR** / Bootstrapped & Capital Efficient Growth | Intuitive, high-speed route planning and stop sequencing tool for solo delivery couriers and fleets (rebranded to Spoke Dispatch for teams). | Solo: **$20 / month**; Teams (Spoke Dispatch): **$125 / month** (includes 1,000 stops/month, $0.04/stop overage) | Solo: **Free-forever plan** up to **10 stops per route** (unlimited routes); Teams: **14-day free trial** (no credit card required). |
-| **[Onfleet](https://onfleet.com/)** | **~$35M ARR** / ~$45M Total Funding (Series B) / ~$100M+ Valuation | Premium last-mile delivery management platform featuring automated route optimization, real-time driver dispatch, proof of delivery, and branded customer live tracking. | **$550 / month** (billed annually) or $619/mo (monthly) for Launch tier (includes up to 2,500 delivery tasks/month) | **14-day free trial** with full feature access and up to 2,500 tasks (no credit card required). |
-| **[NextBillion.ai](https://nextbillion.ai/)** | **~$34.25M Total Funding** (Series B) / ~$15M+ ARR *(Velocitor)* | Developer-centric mapping and routing platform offering scalable Route Optimization APIs, distance matrices, large fleet solvers, and turn-by-turn navigation SDKs. | Starter tier starts at **$499 / month** (covers up to 5,000 tasks/orders; driver app add-on at $19/driver/month) | **14-day free evaluation trial** with solutions engineering support; includes free online web calculation and matrix tools. |
-| **[BeatRoute](https://www.beatroute.io/)** | **~$29M Valuation** / ~$9.7M Annual Revenue / $180K Seed | AI-powered field sales and distribution enablement platform with intelligent territory routing, beat planning, and customer visit scheduling. | Starter Pack starts at **$8.50 / user / month** (or ₹349–₹599/user/month on annual agreements) | **14-day guided trial / pilot** via Startup Program (for growing fleets with <50 sales reps / <500 customers; no self-serve free plan). |
-| **[OptimoRoute](https://optimoroute.com/)** | **~$7.1M ARR** / ~$10.7M Total Funding | Highly configurable multi-stop route optimization platform supporting time windows, vehicle load capacities, multi-day scheduling, skills-based matching, and live order injection. | **$35.10 / driver / month** (billed annually) or $39/mo (monthly) for Lite tier; Pro at $44.10/mo | **30-day free trial** with full feature access and no credit card required (no permanent free tier). |
-| **[Routific](https://routific.com/)** | **~$5.4M ARR** / Seed & Bootstrapped Growth | User-friendly route optimization and dispatch solution engineered for local delivery businesses, featuring proprietary sequencing algorithms, driver mobile apps, and automated ETA alerts. | **$150 / month** (covers 101–1,000 orders/month; $0.15/order overage) | **Free-forever plan** for up to **100 orders/month** (unlimited drivers & dispatchers); plus **7-day free trial** of paid plans. |
-| **[Track-POD](https://www.track-pod.com/)** | **~$7.3M Valuation** / ~$2.4M ARR | Paperless delivery management and route optimization solution offering automated route planning, live GPS tracking, electronic proof of delivery (ePOD), and vehicle check. | **$35 / driver / month** (billed annually) or $39/mo (monthly) for Standard; or from **$285 / month** (order-based tier) | **7-day free trial** (up to 14 days upon request) supporting up to 2 drivers and core optimization (no credit card required). |
-| **[MyRouteOnline](https://www.myrouteonline.com/)** | **~$1.5M–$2.0M ARR** / Unfunded & Bootstrapped since 2009 | Straightforward, accessible multi-stop route planner for small to mid-sized fleets needing rapid batch address optimization and map-based dispatch export. | **$19 / month** (subscription includes 50 address credits/month) or Pay-As-You-Go from $24 (20 credits) | **Free-forever tier** up to **6 addresses per route**; free trial with credit reload available without credit card. |
-
----
-
-## ⚡ Open-Source GitHub Projects
-
-*Curated open-source solvers, high-performance routing engines, distance matrix generators, and vehicle routing libraries. Sorted by GitHub Stars (Descending).*
-
-- **[Google OR-Tools](https://github.com/google/or-tools)** [![Stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers)  
-  🧠 Google's comprehensive, award-winning mathematical optimization suite featuring world-class Vehicle Routing Problem (VRP) solvers with constraint programming, capacity constraints, time windows, and multi-depot support.
-
-- **[GraphHopper](https://github.com/graphhopper/graphhopper)** [![Stars](https://img.shields.io/github/stars/graphhopper/graphhopper?style=social&color=white)](https://github.com/graphhopper/graphhopper/stargazers)  
-  🚀 Fast, memory-efficient Java road routing engine based on OpenStreetMap data, providing turn-by-turn navigation, isochrones, matrix calculations, and embedded vehicle routing capabilities.
-
-- **[Valhalla](https://github.com/valhalla/valhalla)** [![Stars](https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white)](https://github.com/valhalla/valhalla/stargazers)  
-  🌐 Open-source, tiled routing engine and transit engine written in C++ that supports multi-modal routing, dynamic costing, time-distance matrices, and map matching.
-
-- **[OSRM (Open Source Routing Machine)](https://github.com/Project-OSRM/osrm-backend)** [![Stars](https://img.shields.io/github/stars/Project-OSRM/osrm-backend?style=social&color=white)](https://github.com/Project-OSRM/osrm-backend/stargazers)  
-  ⚡ Ultra-fast C++ routing engine using Contraction Hierarchies and Multi-Level Dijkstra on OpenStreetMap data, calculating distance matrices and shortest paths in microseconds.
-
-- **[VROOM](https://github.com/VROOM-Project/vroom)** [![Stars](https://img.shields.io/github/stars/VROOM-Project/vroom)?style=social&color=white](https://github.com/VROOM-Project/vroom/stargazers)  
-  🏎️ High-performance open-source Vehicle Routing Open-source Optimization Machine in C++ that solves complex real-world VRP variants (CVRP, VRPTW, PDPTW, multi-depot) in milliseconds.
-
-- **[OpenRouteService](https://github.com/GIScience/openrouteservice)** [![Stars](https://img.shields.io/github/stars/GIScience/openrouteservice?style=social&color=white)](https://github.com/GIScience/openrouteservice/stargazers)  
-  🗺️ Spatial routing API service built on OpenStreetMap with isochrones, time-distance matrices, elevation data, and integrated VROOM optimization endpoints.
-
-- **[pgRouting](https://github.com/pgRouting/pgrouting)** [![Stars](https://img.shields.io/github/stars/pgRouting/pgrouting?style=social&color=white)](https://github.com/pgRouting/pgrouting/stargazers)  
-  🐘 Geospatial routing extension for PostgreSQL / PostGIS providing Dijkstra, A*, Traveling Salesperson (TSP), and network analysis directly within SQL queries.
-
-- **[jsprit](https://github.com/jsprit/jsprit)** [![Stars](https://img.shields.io/github/stars/jsprit/jsprit?style=social&color=white)](https://github.com/jsprit/jsprit/stargazers)  
-  ☕ Lightweight, flexible Java library for solving rich Traveling Salesman Problems (TSP) and Vehicle Routing Problems (VRP) with metaheuristic optimization.
-
-- **[Leaflet Routing Machine](https://github.com/perliedman/leaflet-routing-machine)** [![Stars](https://img.shields.io/github/stars/perliedman/leaflet-routing-machine?style=social&color=white)](https://github.com/perliedman/leaflet-routing-machine/stargazers)  
-  📍 Interactive Leaflet control for building browser-based route planning maps, waypoint dragging, and turn-by-turn directions using OSRM, GraphHopper, or Valhalla.
-
-- **[Timefold Solver](https://github.com/TimefoldAI/timefold-solver)** [![Stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers)  
-  ⏱️ Leading open-source AI constraint satisfaction and planning solver (fork of OptaPlanner) in Java/Python for complex vehicle routing, shift rostering, and resource dispatch.
-
-- **[PyVRP](https://github.com/PyVRP/PyVRP)** [![Stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers)  
-  🐍 State-of-the-art Hybrid Genetic Search VRP solver for Python with C++ acceleration, winning multiple international VRP competitions on large-scale benchmarks.
-
-- **[vrp (Rust Solver)](https://github.com/reinterpretcat/vrp)** [![Stars](https://img.shields.io/github/stars/reinterpretcat/vrp?style=social&color=white)](https://github.com/reinterpretcat/vrp/stargazers)  
-  🦀 High-performance Vehicle Routing Problem solver written in pure Rust with support for multiple job types, capacity limits, time windows, and reload stops.
-
-- **[RoutingKit](https://github.com/RoutingKit/RoutingKit)** [![Stars](https://img.shields.io/github/stars/RoutingKit/RoutingKit?style=social&color=white)](https://github.com/RoutingKit/RoutingKit/stargazers)  
-  ⚡ Fast C++ routing library focused on clean graph algorithms and custom contraction hierarchies for calculating travel times across large road networks.
-
-- **[pyvroom](https://github.com/VROOM-Project/pyvroom)** [![Stars](https://img.shields.io/github/stars/VROOM-Project/pyvroom?style=social&color=white)](https://github.com/VROOM-Project/pyvroom/stargazers)  
-  📦 Python bindings for the VROOM optimization machine, providing frictionless integration into Python data science and logistics pipelines.
-
----
-
-## 🧩 Routing Toolkits & Building Blocks
-
-| Category 📂 | Description 📝 | Key Technologies & Repositories 🎯 |
-| :--- | :--- | :--- |
-| **High-Speed Routing Engines** | Microsecond shortest path calculation and time-distance matrix generators. | **OSRM**, **Valhalla**, **GraphHopper**, **RoutingKit** |
-| **Metaheuristic & Exact Solvers** | Algorithms for CVRP, VRPTW, pickup-and-delivery, and multi-depot planning. | **Google OR-Tools**, **VROOM**, **PyVRP**, **Timefold Solver**, **jsprit** |
-| **Spatial Databases & GIS** | Database-native graph topology, isochrones, and spatial route queries. | **PostGIS**, **pgRouting**, **H3 Spatial Index**, **GeoPandas** |
-| **Interactive Map Frontends** | Web map visualization, draggable waypoints, and fleet telemetry dashboards. | **Leaflet Routing Machine**, **MapLibre GL**, **Deck.gl**, **OpenLayers** |
-| **GPU-Accelerated Routing** | Massively parallel heuristic solvers and tensorized constraint optimization. | **NVIDIA cuOpt**, **RAPIDS cuGraph**, **CUDA VRP Acceleration** |
-
----
-
-## 🎯 Quick Start Recommendations
-
-| Use Case 🎯 | Recommended Starting Point 🚀 |
-| :--- | :--- |
-| **Best Free & Open-Source VRP Solver (Production-Ready)** | **[VROOM](https://github.com/VROOM-Project/vroom)** + **[OSRM](https://github.com/Project-OSRM/osrm-backend)** |
-| **Best Python Solver for Complex Constraints** | **[PyVRP](https://github.com/PyVRP/PyVRP)** or **[Google OR-Tools](https://github.com/google/or-tools)** |
-| **Best Java Enterprise Optimization Stack** | **[Timefold Solver](https://github.com/TimefoldAI/timefold-solver)** or **[GraphHopper](https://github.com/graphhopper/graphhopper)** |
-| **Best Enterprise Full-Scale Orchestration Platform** | **[Bringg](https://www.bringg.com/)** or **[FarEye](https://fareye.com/)** |
-| **Best Developer-First Routing & Matrix API** | **[NextBillion.ai](https://nextbillion.ai/)** or **[OpenRouteService](https://github.com/GIScience/openrouteservice)** |
-| **Best Last-Mile Dispatch & Proof-of-Delivery SaaS** | **[Onfleet](https://onfleet.com/)** or **[Track-POD](https://www.track-pod.com/)** |
-| **Best Mid-Market & SME Delivery Planning** | **[OptimoRoute](https://optimoroute.com/)** or **[Routific](https://routific.com/)** |
-| **Best Solo Courier & Driver Mobile App** | **[Circuit / Spoke](https://getcircuit.com/)** |
-| **Best Spatial SQL Routing in Database** | **[pgRouting](https://github.com/pgRouting/pgrouting)** (PostgreSQL) |
-
----
-
-## 📈 Star History
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Route-Optimization-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Route-Optimization-Platform&type=date&legend=top-left)
-
----
-
-## 🤝 How to Contribute
-
-Contributions, updates, and new platform additions are warmly welcome!
-1. Fork this repository.
-2. Add or update entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Route-Optimization-Platform/README.md) following the existing table and badge conventions.
-3. Ensure all links are active, descriptions are factual, and categories are properly sorted.
-4. Submit a Pull Request with a clear description of changes.
-
-⭐ Star the repository if you find it helpful!
-
----
-
-## ⚠️ Disclaimer
-
-- This repository is a **community-curated index** for informational and educational purposes — not an endorsement.
-- Route optimization performance depends on accurate speed profiles, realistic traffic models, and correct constraint definitions; validate solutions against physical fleet operations.
-- Self-hosted open-source solvers require adequate compute resources and continuous matrix updates for large fleet deployments.
-
----
-
-**Made with ❤️ for logistics teams, delivery operators, fleet managers, and developers building the future of intelligent route optimization.**
-
+Let's make revenue recognition more open, auditable, and automation-friendly.
