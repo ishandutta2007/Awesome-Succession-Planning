@@ -39,25 +39,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 | Platform | Description | Starting Price | Free Tier / Trial Limit | Est. Revenue / Valuation |
 |---|---|---|---|---|
-| **[Condeco / Eptura Engage](https://eptura.com/)** | Enterprise desk and room booking solution tightly integrated with Microsoft ecosystems and large-scale workplace operations. | ~/month (estimated) | Demo only | ~.0M Revenue |
-| **[Envoy](https://envoy.com/)** | Workplace platform covering visitor management, desk booking, room scheduling, and delivery features. | ~/user/month | 14-day free trial | ~.0M Revenue |
-| **[Robin](https://robinpowered.com/)** | Workplace platform for desk/room booking, floor-plan maps, occupancy analytics, and hybrid collaboration. | ~/user/month | 14-day free trial | ~.0M Revenue |
-| **[OfficeSpace](https://www.officespacesoftware.com/)** | AI-powered workplace management software focused on space planning, desk/room booking, and utilization insights. | ~/month (estimated) | Demo only | ~.0M Revenue |
-| **[Kadence](https://kadence.co/)** | Hybrid workplace platform combining desk booking, scheduling, and insights to coordinate in-office days. | ~/user/month | 14-day free trial | ~.0M Revenue |
-| **[Skedda](https://www.skedda.com/)** | Flexible space booking platform known for granular rules, per-space pricing, and strong resource support. | $99.00/month (up to 15 spaces) | 30-day free trial | ~.0M Revenue |
-| **[Officely](https://www.officely.app/)** | Slack/Teams-native office attendance and desk booking tool designed for simple hybrid team coordination. | ~.50/user/month | Free forever plan limited to 5 users | ~.0M Revenue |
-| **[GoBright](https://gobright.com/)** | Desk and room booking, visitor management, and digital signage solutions for efficient workplace utilization. | ~£2.30/license/month | 30-day free trial | ~.4M Revenue |
-| **[Tactic](https://www.tactic.com/)** | Workplace experience and booking software focused on hybrid coordination, space reservation, and employee experience. | ~.00/desk/month | 14-day free trial | ~.5M Revenue |
-| **[Archie](https://archieapp.co/)** | Workplace and booking platform supporting desks, rooms, and hybrid work coordination with modern UX. | ~.00/month | 14-day free trial | ~.4M Revenue |
+| **[Condeco / Eptura Engage](https://eptura.com/)** | Enterprise desk and room booking solution tightly integrated with Microsoft ecosystems and large-scale workplace operations. | ~/month (estimated) | Demo only |  Valuation |
+| **[Envoy](https://envoy.com/)** | Workplace platform covering visitor management, desk booking, room scheduling, and delivery features. | ~/user/month | 14-day free trial |  Valuation |
+| **[OfficeSpace](https://www.officespacesoftware.com/)** | AI-powered workplace management software focused on space planning, desk/room booking, and utilization insights. | ~/month (estimated) | Demo only |  Valuation |
+| **[Robin](https://robinpowered.com/)** | Workplace platform for desk/room booking, floor-plan maps, occupancy analytics, and hybrid collaboration. | ~/user/month | 14-day free trial |  Valuation |
+| **[Skedda](https://www.skedda.com/)** | Flexible space booking platform known for granular rules, per-space pricing, and strong resource support. | .00/month (up to 15 spaces) | 30-day free trial |  Valuation |
+| **[Kadence](https://kadence.co/)** | Hybrid workplace platform combining desk booking, scheduling, and insights to coordinate in-office days. | ~/user/month | 14-day free trial |  Valuation |
+| **[GoBright](https://gobright.com/)** | Desk and room booking, visitor management, and digital signage solutions for efficient workplace utilization. | ~£2.30/license/month | 30-day free trial |  Valuation |
+| **[Officely](https://www.officely.app/)** | Slack/Teams-native office attendance and desk booking tool designed for simple hybrid team coordination. | ~.50/user/month | Free forever plan limited to 5 users |  Valuation |
+| **[Tactic](https://www.tactic.com/)** | Workplace experience and booking software focused on hybrid coordination, space reservation, and employee experience. | ~.00/desk/month | 14-day free trial |  Valuation |
+| **[Archie](https://archieapp.co/)** | Workplace and booking platform supporting desks, rooms, and hybrid work coordination with modern UX. | ~.00/month | 14-day free trial |  Valuation |
 
 ## 🔓 Open-Source GitHub Projects
 
 - **[Cal.com](https://github.com/calcom/cal.com)** [![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)  
   Popular open-source scheduling infrastructure that can be adapted or extended for internal resource booking use cases.
+- **[roomb](https://github.com/roomb/roomb)** [![Stars](https://img.shields.io/github/stars/roomb/roomb?style=social&color=white)](https://github.com/roomb/roomb/stargazers)  
+  Open-source meeting room booking system with a modern UI.
 - **[LibreBooking](https://github.com/LibreBooking/app)** [![Stars](https://img.shields.io/github/stars/LibreBooking/app?style=social&color=white)](https://github.com/LibreBooking/app/stargazers)  
   Open-source resource booking system designed for reserving rooms, equipment, and similar assets.
 - **[WARP](https://github.com/sebo-b/warp)** [![Stars](https://img.shields.io/github/stars/sebo-b/warp?style=social&color=white)](https://github.com/sebo-b/warp/stargazers)  
   Open-source system for managing hybrid office space, including hot-desks, assigned seats, visual booking, and occupancy transparency.
+- **[meeting-room-booking](https://github.com/meeting-room-booking/meeting-room-booking)** [![Stars](https://img.shields.io/github/stars/meeting-room-booking/meeting-room-booking?style=social&color=white)](https://github.com/meeting-room-booking/meeting-room-booking/stargazers)  
+  A simple and effective meeting room booking solution.
 - **[OpenDesk](https://github.com/kanwalnainsingh/OpenDesk)** [![Stars](https://img.shields.io/github/stars/kanwalnainsingh/OpenDesk?style=social&color=white)](https://github.com/kanwalnainsingh/OpenDesk/stargazers)  
   System helping organizations optimize desk utilization by enabling employees to reserve desks when working from the office.
 - **[Workplacify](https://github.com/igeligel/workplacify)** [![Stars](https://img.shields.io/github/stars/igeligel/workplacify?style=social&color=white)](https://github.com/igeligel/workplacify/stargazers)  
@@ -91,5 +95,5 @@ Star the repo if you find it useful!
 **Made for facilities managers, hybrid-work leaders, IT teams, and organizations building open workplace tools.**
 Let's make desk and room booking more open, flexible, and employee-friendly.
 
-## 📈 Star History
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Workplace-Reservation-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Workplace-Reservation-Platform&type=date&legend=top-left)
+## ⭐ Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-CPQ&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-CPQ&type=date&legend=top-left)
