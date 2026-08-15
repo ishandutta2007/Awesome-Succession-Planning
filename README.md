@@ -1,6 +1,15 @@
 # 🚀 Awesome Crypto Treasury Management
 
 <p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Crypto Treasury Management Banner">
+</p>
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a> <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+> **A comprehensive, SEO-optimized curated list of the best Crypto Treasury Management tools, SaaS platforms, and Open-Source projects.** Discover multi-sig wallets, on-chain treasury operations, crypto accounting software, policy controls, payments, and institutional custody solutions for DAOs and Web3 enterprises.
+
+<p align="center">
   <img src="assets/banner.svg" alt="Awesome Crypto Treasury Management Banner">
 </p>
 
@@ -99,3 +108,7 @@ Let's make crypto treasury operations more open, verifiable, and free from singl
 ## 📈 Star History
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Crypto-Treasury-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Crypto-Treasury-Management&type=date&legend=top-left)
  
+
+
+## ⭐ Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Crypto-Treasury-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Crypto-Treasury-Management&type=date&legend=top-left)
