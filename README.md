@@ -1,109 +1,92 @@
-# 🛡️ Awesome SBOM Management Platform <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+# Awesome-Warehouse-Labor-Optimization
 
-> 📦 A curated directory of top **SBOM Management Platforms**, Software Bill of Materials (SBOM) generators, continuous monitoring engines, vulnerability correlation tools, license compliance suites, and supply chain security stacks.
+## Top Warehouse Labor Optimization Platforms Ecosystem
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Labor Management Systems (LMS), Engineered Standards, Productivity Tracking, Workforce Planning, Task Interleaving & Warehouse Performance Analytics*
+**Last updated: August 2026**
 
-<p align="center">
-  <img src="assets/banner.svg" alt="Awesome SBOM Management Banner" width="100%" />
-</p>
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Warehouse Labor Optimization**. These tools measure and improve associate productivity using engineered labor standards, real-time performance tracking, labor forecasting, incentive management, and integration with WMS/WES execution systems.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **SBOM Management**. These tools generate, ingest, store, analyze, and continuously monitor Software Bills of Materials (SBOMs) in formats such as CycloneDX and SPDX, correlating components against vulnerability databases, enforcing policy, and supporting supply-chain transparency and compliance.
+**Examples** include Easy Metrics, Lucas Systems, Blue Yonder, Manhattan Associates, Körber, Logiwa, Made4net, Extensiv, Hopstack, and Infios (the category leaders).
 
-**Examples** include Anchore, Manifest Cyber, CycloneDX Platform, Dependency-Track, Mend.io, Black Duck, Chainguard, JFrog Xray, FOSSA, and Anchore Enterprise (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for SBOM generation, continuous component analysis, vulnerability scanning, and self-hosted management platforms — ideal for DevSecOps teams, platform engineers, and organizations seeking transparent, standards-based software supply chain security.
+**Open-source emphasis**: This section is heavily expanded with every major active project for open warehouse management systems that include labor/task modules, workforce scheduling libraries, and self-hosted logistics platforms — ideal for operations teams, 3PLs, and developers seeking transparent, customizable labor and warehouse execution capabilities.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-## 📑 Table of Contents
-- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
-- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-- [🛠️ How to Contribute](#-how-to-contribute)
-- [⚠️ Disclaimer](#-disclaimer)
+## Table of Contents
+- [SaaS/Hosted Platforms](#saashosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-## 🏢 SaaS/Hosted Platforms
+## SaaS/Hosted Platforms
 
-| Platform | Description/Features | Company Size (Valuation) | Pricing | Free Tier Limits |
-| :--- | :--- | :--- | :--- | :--- |
-| **[JFrog Xray](https://jfrog.com/xray/)** | Software composition analysis and security tool integrated with JFrog Artifactory that generates and analyzes SBOMs across artifacts and binaries. | ~ (Public Market Cap) | Starts at $150/month (Pro X tier) | 14-day free trial |
-| **[Black Duck (Synopsys)](https://www.blackduck.com/)** | Enterprise SCA and open-source management platform providing deep component analysis, SBOM capabilities, license compliance, and governance controls. | ~.1B (Acquisition Valuation) | Starts at ~,000/year | 30-day free trial |
-| **[Chainguard](https://www.chainguard.dev/)** | Secure container and supply-chain focused company offering hardened images, SBOMs, and provenance tooling for modern cloud-native environments. | ~.1B (Series C) | Starts at ~,000/year | Up to 5 container images |
-| **[Mend.io](https://www.mend.io/)** | Application security and SCA platform with strong SBOM generation, vulnerability management, license compliance, and automated remediation features. | ~ (Acquisition Valuation) | Starts at ~/developer/year | Mend Renovate: 1 concurrent job, 15GB disk |
-| **[Anchore](https://anchore.com/)** / **[Anchore Enterprise](https://anchore.com/)** | Leading software supply chain security platform offering SBOM generation (powered by Syft), policy enforcement, continuous monitoring, and enterprise management capabilities. | ~+ (Series B) | Starts at ~,500/year | 15-day free trial |
-| **[FOSSA](https://fossa.com/)** | Open-source license compliance and vulnerability platform with robust SBOM generation, management, and audit-ready reporting. | ~+ (Series B) | Starts at ~,000/year | 5 projects, 25 developers limit |
-| **[Manifest Cyber](https://www.manifestcyber.com/)** | Specialized SBOM and AIBOM management platform focused on automated supply-chain security, compliance, and visibility for regulated and critical industries. | ~+ (Seed/Series A) | Starts at ~,360/year | 0-day free trial (No free tier) |
-| **[CycloneDX Platform](https://cyclonedx.org/)** | Ecosystem and commercial offerings built around the widely adopted CycloneDX SBOM standard for generation, validation, and exchange. | N/A (Open-Source Standard) | $0 (Open-Source Standard) | Unlimited (Free forever) |
-| **[Dependency-Track](https://dependencytrack.org/)** | Intelligent component analysis platform (OWASP) that ingests SBOMs, continuously monitors for vulnerabilities and policy violations, and is available both as open source and managed offerings. | N/A (Open-Source Project) | $0 (Open-Source) | Unlimited (Free forever) |
+| Platform | Core Capabilities | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Easy Metrics](https://www.easymetrics.com/)** | Cloud-based labor performance & cost-to-serve analytics connecting warehouse activity data with productivity standards, costing, and 3PL billing insights. | Starting at ~$1,500/month base SaaS tier (~$15–$30/active employee/month; fraction of traditional $250k+ on-prem LMS) | 14-day guided proof-of-concept (POC) sandbox trial (limited to sample shift dataset & single facility evaluation; no permanent free plan) |
+| **[Lucas Systems](https://www.lucasware.com/)** | Voice-directed execution (Jennifer™), AI dynamic work optimization, pick-path routing, and real-time associate labor tracking. | Starting at ~$2,500/month base SaaS tier (or ~$25,000 upfront facility deployment based on voice client license packs) | 30-day proof-of-value (POV) pilot program for qualified enterprise facilities (hands-on workflow evaluation; no permanent free plan) |
+| **[Blue Yonder Warehouse Labor Management](https://blueyonder.com/)** | Enterprise-grade labor management (formerly JDA LMS) with multi-variable engineered labor standards (ELS), shift forecasting, and incentive pay management. | Starting at ~$8,333/month (~$100,000/year entry enterprise license) plus implementation services | 30-day guided interactive sandbox / POC evaluation for qualified enterprise accounts (restricted to test environments; no permanent free plan) |
+| **[Manhattan Associates / Manhattan Active Labor Management](https://www.manh.com/)** | Cloud-native labor planning, continuous engineered standards, gamification, and task optimization integrated with Manhattan Active WMS/SCE. | Starting at ~$10,000/month (~$120,000/year base tier) scaled by associate headcount and annual facility order volume | 14-to-30-day structured virtual test environment / POC during sales qualification (scoped to simulated facility flows; no permanent free plan) |
+| **[Körber](https://www.koerber-supplychain.com/)** | K.Motion Labor Management System (LMS) & WMS suite with labor standards calculation, employee scorecards, and warehouse execution monitoring. | Starting at ~$2,500/month (~$30,000/year base SaaS subscription for mid-market distribution centers) | 30-day guided sandbox pilot deployment (limited to single facility workflow modeling; no permanent free plan) |
+| **[Logiwa](https://www.logiwa.com/)** | High-volume ecommerce & 3PL cloud WMS featuring labor productivity analytics, task interleaving, and pick/pack rate tracking. | Starting at ~$500/month base tier (volume-tiered by monthly order throughput) | 14-day guided test sandbox environment (capped at 500 test orders & demo SKU catalog; no permanent free plan) |
+| **[Made4net](https://www.made4net.com/)** | WarehouseExpert & LaborExpert supply chain suite featuring dynamic labor standards, task allocation, and real-time worker productivity dashboards. | Starting at ~$500/month (or ~$15,000/year entry software subscription for mid-tier warehouses) | 14-day assisted demo sandbox / interactive POC (limited to pre-configured test dataset; no permanent free plan) |
+| **[Extensiv](https://www.extensiv.com/)** | 3PL Warehouse Manager and Integration Manager offering labor tracking, billing automation, and fulfillment operational metrics. | Starting at $39/month for Integration Manager; $599/month starting tier for 3PL Warehouse Manager | 30-day free trial on Integration Manager (1st month free, capped at 100 orders/month); 14-day guided sandbox for 3PL Warehouse Manager |
+| **[Hopstack](https://www.hopstack.io/)** | Modern digital WMS platform with native labor productivity insights, real-time task management, and pick/pack workstation optimization. | Starting at $199/month (Ignite / Starter tier up to 50,000 units/month; Growth tier at $249/month up to 100,000 units/month) | 30-day free trial (full access to Hopstack Ignite features up to 5,000 test orders; no permanent free plan) |
+| **[Infios](https://www.infios.com/)** | End-to-end execution suite (OMS/WMS/TMS) that incorporates labor management and workforce tracking within broader warehouse and fulfillment workflows. | Starting at ~$3,500/month (~$42,000/year entry tier) scaled based on facility count and transaction volume | 30-day structured proof-of-concept / sandbox evaluation (limited to staging environment; no permanent free plan) |
 
-## 💻 Open-Source GitHub Projects
+## Open-Source GitHub Projects
+- **[Odoo / OCA WMS modules](https://github.com/OCA/wms)**  
+  Extensive open-source warehouse management modules for Odoo covering advanced logistics, shopfloor operations, release channels, and task-oriented warehouse workflows that can support labor tracking.
 
-- **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
-  Popular all-in-one open-source scanner that produces CycloneDX/SPDX SBOMs and performs vulnerability, misconfiguration, and secret scanning.
+- **[GreaterWMS](https://github.com/GreaterWMS/GreaterWMS)**  
+  Fully open-source warehouse management system with inventory, inbound/outbound, and operational modules suitable for customization around labor and task management.
 
-- **[Grype](https://github.com/anchore/grype)** [![Stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers)  
-  Open-source vulnerability scanner that consumes SBOMs (or images/filesystems) and matches components against multiple vulnerability databases.
+- **[OpenWMS.org](https://github.com/openwms/org.openwms)**  
+  Extensible open-source Warehouse Management System with material flow control capabilities for both manual and automated warehouses.
 
-- **[OSV-Scanner](https://github.com/google/osv-scanner)** [![Stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers)  
-  Google’s open-source scanner that uses the OSV database and can work with SBOMs and lockfiles for vulnerability detection.
+- **[openwcs / Open Warehouse Control System](https://github.com/)**  
+  Open-source Warehouse Control System (WCS) focused on orchestrating automated equipment and real-time flows; useful foundation for labor + automation hybrid environments.
 
-- **[OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck)** [![Stars](https://img.shields.io/github/stars/jeremylong/DependencyCheck?style=social&color=white)](https://github.com/jeremylong/DependencyCheck/stargazers)  
-  Established open-source SCA tool that identifies project dependencies and checks them against known vulnerability databases.
+- **[Pyck](https://pyck.ai/)**  
+  Open-source warehouse management framework designed for building tailored logistics and warehouse operations with high flexibility.
 
-- **[Syft](https://github.com/anchore/syft)** [![Stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers)  
-  Widely adopted open-source CLI and library from Anchore for generating high-quality SBOMs (CycloneDX, SPDX, and others) from container images, filesystems, and archives.
+- **[GoodsMart WMS](https://wms.goodsmart.jp/)**  
+  Modern open-source warehouse management system covering receiving through shipping with modular, API-driven architecture.
 
-- **[Dependency-Track](https://github.com/DependencyTrack/dependency-track)** [![Stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers)  
-  OWASP flagship open-source platform for continuous SBOM ingestion, component inventory, vulnerability correlation, policy enforcement, and portfolio-wide risk visibility.
+- **[Open Warehouse System starters](https://github.com/)**  
+  Community starters focused on cross-border, 3PL, and fulfillment operations including inventory, billing, and warehouse job management.
 
-- **[Microsoft sbom-tool](https://github.com/microsoft/sbom-tool)** [![Stars](https://img.shields.io/github/stars/microsoft/sbom-tool?style=social&color=white)](https://github.com/microsoft/sbom-tool/stargazers)  
-  Open-source tool for generating SPDX SBOMs, particularly useful in enterprise and Microsoft-centric build environments.
+- **[pyworkforce](https://github.com/rodrigo-arenas/pyworkforce)**  
+  Open-source Python library for workforce planning, queuing, shift scheduling, rostering, and optimization problems that can be applied to warehouse labor scenarios.
 
-- **[Dagda](https://github.com/eliasgranderubio/dagda)** [![Stars](https://img.shields.io/github/stars/eliasgranderubio/dagda?style=social&color=white)](https://github.com/eliasgranderubio/dagda/stargazers)  
-  A tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers.
+- **[DutyDock and rostering tools](https://github.com/)**  
+  Open-source shift planning and rostering software for teams with complex scheduling constraints.
 
-- **[KubeClarity](https://github.com/openclarity/kubeclarity)** [![Stars](https://img.shields.io/github/stars/openclarity/kubeclarity?style=social&color=white)](https://github.com/openclarity/kubeclarity/stargazers)  
-  KubeClarity is a tool for detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems.
+- **[Custom WMS + labor analytics stacks](https://github.com/)**  
+  Community projects that combine open WMS cores with time tracking, productivity dashboards, and engineered-standards style calculations.
 
-- **[Tern](https://github.com/tern-tools/tern)** [![Stars](https://img.shields.io/github/stars/tern-tools/tern?style=social&color=white)](https://github.com/tern-tools/tern/stargazers)  
-  Tern is a software composition analysis tool and SBOM generator for containers.
+### Additional Strong Open-Source Options
+- ERPNext / Frappe warehouse and HR modules for basic attendance and task tracking.
+- Integration of open time-tracking tools with WMS event streams for productivity measurement.
+- OR-Tools / optimization libraries for pick-path, task assignment, and staffing models.
+- Shopfloor and barcode scanning projects that feed labor activity data into analytics layers.
+- Self-hosted dashboards (Metabase, Superset, Grafana) built on WMS transaction logs for labor KPIs.
 
-- **[cdxgen](https://github.com/CycloneDX/cdxgen)** [![Stars](https://img.shields.io/github/stars/CycloneDX/cdxgen?style=social&color=white)](https://github.com/CycloneDX/cdxgen/stargazers)  
-  OWASP CycloneDX generator supporting a broad range of languages and build systems for native CycloneDX SBOM creation.
+**Frameworks for building custom systems**: Adopt an open WMS core (**Odoo WMS**, **GreaterWMS**, **OpenWMS**, or **GoodsMart**), capture task-level events (picks, puts, travel), apply engineered or statistical standards with Python libraries such as **pyworkforce** or custom OR-Tools models, schedule labor with open rostering tools, and visualize performance in open BI tools. Local LLMs can assist with coaching recommendations and anomaly explanations based on the resulting data.
 
-- **[Bomber](https://github.com/devops-kung-fu/bomber)** [![Stars](https://img.shields.io/github/stars/devops-kung-fu/bomber?style=social&color=white)](https://github.com/devops-kung-fu/bomber/stargazers)  
-  Scans Software Bill of Materials (SBOMs) for security vulnerabilities.
-
-- **[SPDX tools & utilities](https://github.com/spdx/tools)** [![Stars](https://img.shields.io/github/stars/spdx/tools?style=social&color=white)](https://github.com/spdx/tools/stargazers)  
-  Official and community tooling for creating, validating, and working with SPDX-format SBOMs and license data.
-
-- **[Hoppr](https://github.com/hoppr/hoppr)** [![Stars](https://img.shields.io/github/stars/hoppr/hoppr?style=social&color=white)](https://github.com/hoppr/hoppr/stargazers)  
-  A framework for creating secure software supply chains and artifact bundles.
-
-### ➕ Additional Strong Open-Source Options
-- Harbor and other registry projects with SBOM storage and scanning integrations.
-- in-toto / SLSA-related attestation and provenance tools that complement SBOMs.
-- SBOM utility libraries for querying, diffing, and reporting on CycloneDX/SPDX documents.
-- CI/CD plugins and GitHub Actions for automated SBOM generation and upload to Dependency-Track.
-- VEX (Vulnerability Exploitability eXchange) tooling for richer risk context on top of SBOMs.
-
-**Frameworks for building custom systems**: Generate SBOMs in CI with **Syft**, **Trivy**, or **cdxgen**, continuously monitor them in **Dependency-Track**, scan with **Grype** or **Trivy**, enforce policy via Dependency-Track’s expression engine or custom rules, and store signed attestations. Combine with open registries and local LLMs for natural-language risk summaries and remediation guidance.
-
-## 🛠️ How to Contribute
+## How to Contribute
 1. Fork the repo.
-2. Add/edit entries in README.md (follow existing format).
+2. Add/edit entries in `README.md` (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
 4. Submit PR with a short explanation.
 
-⭐ Star the repo if you find it useful!
+Star the repo if you find it useful!
 
-## ⚠️ Disclaimer
+## Disclaimer
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-- SBOM accuracy depends on the quality of generation tools, completeness of dependency detection, and timely vulnerability data. Always validate critical findings and maintain proper versioning and attestation practices.
-- Self-hosted open-source platforms require ongoing maintenance of vulnerability feeds, infrastructure hardening, and access controls when handling sensitive software inventory data.
+- Warehouse labor systems interact with sensitive employee performance data and operational processes. Ensure compliance with labor laws, privacy regulations, and collective bargaining agreements when deploying any tracking or incentive system.
+- Open-source WMS and labor tools require significant configuration, integration, and operational expertise to approach the depth of commercial engineered-labor-standards platforms.
 
 ---
-**Made for DevSecOps teams, platform engineers, security architects, and organizations building transparent software supply chains.**
-Let's make SBOM management more open, continuous, and actionable.
-
-## 📈 Star History
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-SBOM-Management-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-SBOM-Management-Platform&type=date&legend=top-left)
- 
+**Made for warehouse operations leaders, 3PLs, supply chain technologists, and teams building transparent labor optimization systems.**
+Let's make warehouse labor management more open, measurable, and fair.
