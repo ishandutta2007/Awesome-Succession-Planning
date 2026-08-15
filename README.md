@@ -39,16 +39,16 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 | Platform | Description | Starting Price | Free Tier / Trial Limit | Est. Revenue / Valuation |
 |---|---|---|---|---|
-| **[Condeco / Eptura Engage](https://eptura.com/)** | Enterprise desk and room booking solution tightly integrated with Microsoft ecosystems and large-scale workplace operations. | Undisclosed (Enterprise quote required) | No free forever plan; Demo required | ~.0M Revenue |
-| **[Envoy](https://envoy.com/)** | Workplace platform covering visitor management, desk booking, room scheduling, and delivery features. | ~.00/user/month | No free forever plan; 14-day free trial | ~.0M Revenue |
-| **[Robin](https://robinpowered.com/)** | Workplace platform for desk/room booking, floor-plan maps, occupancy analytics, and hybrid collaboration. | ~.00/user/month | No free forever plan; 14-day free trial | ~.0M Revenue |
-| **[OfficeSpace](https://www.officespacesoftware.com/)** | AI-powered workplace management software focused on space planning, desk/room booking, and utilization insights. | Undisclosed (Enterprise quote required) | No free forever plan; Demo required | ~.0M Revenue |
-| **[Kadence](https://kadence.co/)** | Hybrid workplace platform combining desk booking, scheduling, and insights to coordinate in-office days. | ~.00/user/month | No free forever plan; Free trial available | ~.0M Revenue |
-| **[Skedda](https://www.skedda.com/)** | Flexible space booking platform known for granular rules, per-space pricing, and strong resource support. | $99.00/month (up to 15 spaces) | No free forever plan; 30-day free trial | ~.0M Revenue |
+| **[Condeco / Eptura Engage](https://eptura.com/)** | Enterprise desk and room booking solution tightly integrated with Microsoft ecosystems and large-scale workplace operations. | ~/month (estimated) | Demo only | ~.0M Revenue |
+| **[Envoy](https://envoy.com/)** | Workplace platform covering visitor management, desk booking, room scheduling, and delivery features. | ~/user/month | 14-day free trial | ~.0M Revenue |
+| **[Robin](https://robinpowered.com/)** | Workplace platform for desk/room booking, floor-plan maps, occupancy analytics, and hybrid collaboration. | ~/user/month | 14-day free trial | ~.0M Revenue |
+| **[OfficeSpace](https://www.officespacesoftware.com/)** | AI-powered workplace management software focused on space planning, desk/room booking, and utilization insights. | ~/month (estimated) | Demo only | ~.0M Revenue |
+| **[Kadence](https://kadence.co/)** | Hybrid workplace platform combining desk booking, scheduling, and insights to coordinate in-office days. | ~/user/month | 14-day free trial | ~.0M Revenue |
+| **[Skedda](https://www.skedda.com/)** | Flexible space booking platform known for granular rules, per-space pricing, and strong resource support. | $99.00/month (up to 15 spaces) | 30-day free trial | ~.0M Revenue |
 | **[Officely](https://www.officely.app/)** | Slack/Teams-native office attendance and desk booking tool designed for simple hybrid team coordination. | ~.50/user/month | Free forever plan limited to 5 users | ~.0M Revenue |
-| **[GoBright](https://gobright.com/)** | Desk and room booking, visitor management, and digital signage solutions for efficient workplace utilization. | ~£2.30/license/month | No free forever plan; 30-day free trial | ~.4M Revenue |
-| **[Tactic](https://www.tactic.com/)** | Workplace experience and booking software focused on hybrid coordination, space reservation, and employee experience. | ~.00/desk/month | No free forever plan; 14-day free trial | ~.5M Revenue |
-| **[Archie](https://archieapp.co/)** | Workplace and booking platform supporting desks, rooms, and hybrid work coordination with modern UX. | ~.00/month | No free forever plan; 14-day free trial | ~.4M Revenue |
+| **[GoBright](https://gobright.com/)** | Desk and room booking, visitor management, and digital signage solutions for efficient workplace utilization. | ~£2.30/license/month | 30-day free trial | ~.4M Revenue |
+| **[Tactic](https://www.tactic.com/)** | Workplace experience and booking software focused on hybrid coordination, space reservation, and employee experience. | ~.00/desk/month | 14-day free trial | ~.5M Revenue |
+| **[Archie](https://archieapp.co/)** | Workplace and booking platform supporting desks, rooms, and hybrid work coordination with modern UX. | ~.00/month | 14-day free trial | ~.4M Revenue |
 
 ## 🔓 Open-Source GitHub Projects
 
