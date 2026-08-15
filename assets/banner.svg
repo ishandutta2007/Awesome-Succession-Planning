@@ -1,17 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
-  <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="800" height="200" fill="url(#grad1)" rx="15"/>
-  <text x="400" y="100" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Awesome Workplace Reservation</text>
-  <text x="400" y="150" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" dominant-baseline="middle">Curated list of SaaS &amp; Open Source platforms</text>
-  <circle cx="100" cy="100" r="20" fill="white" opacity="0.5">
-    <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="700" cy="100" r="20" fill="white" opacity="0.5">
-    <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite" />
-  </circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1">
+                <animate attributeName="stop-color" values="#4facfe;#00f2fe;#4facfe" dur="5s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1">
+                <animate attributeName="stop-color" values="#00f2fe;#4facfe;#00f2fe" dur="5s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+    </defs>
+    <rect width="800" height="200" fill="url(#grad)" rx="15" />
+    <text x="400" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">
+        Awesome Crypto Treasury Management
+    </text>
+    <text x="400" y="140" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" dominant-baseline="middle">
+        Curated list of SaaS &amp; Open-Source Treasury Tools
+    </text>
+    <circle cx="100" cy="100" r="40" fill="rgba(255,255,255,0.2)">
+        <animate attributeName="r" values="30;50;30" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="700" cy="100" r="40" fill="rgba(255,255,255,0.2)">
+        <animate attributeName="r" values="50;30;50" dur="3s" repeatCount="indefinite" />
+    </circle>
 </svg>
